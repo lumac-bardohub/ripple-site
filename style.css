@@ -1,0 +1,13 @@
+:root { --bg:#E8F1F8; --surface:#F6FAFD; --ink:#16314A; --muted:#5B7389; --accent:#3B7DB5; --brass:#C8973F; --line:#C9DBE8; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 "Jost", -apple-system, system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+.mark { font-weight:300; font-size:44px; letter-spacing:.06em; margin:0 0 4px; }
+.mark span { color:var(--accent); }
+h1 { font-family:"Newsreader", Georgia, serif; font-weight:400; font-size:32px; margin:28px 0 8px; }
+h2 { font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin:32px 0 8px; font-weight:500; }
+p, li { color:var(--ink); }
+.muted { color:var(--muted); font-size:15px; }
+.card { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:20px 22px; margin:16px 0; }
+a { color:var(--accent); }
+nav a { margin-right:16px; font-size:15px; }
